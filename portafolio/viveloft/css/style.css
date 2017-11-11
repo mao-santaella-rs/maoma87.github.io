@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+/*-------------------- I N D E X ---------------
+	1. GENERAL LAYOUT AND TYPOGRAPHY RULES
+	2. HEADER SECTION
+	3. NAVIGATION
+	4. FEATURED AREA AND SLIDER
+	5. PRIMARY CONTENT
+	6. PORTFOLIO PAGE AND GALLERY
+	7. FORM ELEMENTS
+	8. SIDEBAR
+	9. FOOTER SECTION
+	10. MISCELLANEOUS CLASSES
+----------------------------------------------*/	
+
+/*-------------------- 1. GENERAL LAYOUT AND TYPOGRAPHY RULES --------------------*/
+body { margin:0px auto; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:1.7em; text-align:center; color:#333; background:#f4f4f4}	
+h1, h2, h3, h4, h5, h6 { font-weight:normal; color:#000; background:url(../images/hr.gif) bottom repeat-x}	
+h1 {
+	font-size:36px;
+	line-height:1em;
+	margin:0px 0px 12px 0px;
+	padding-bottom:10px;
+	font-family: arial;
+}
+h2 {
+	font-size:24px;
+	line-height:1em;
+	margin:0px 0px 10px 0px;
+	padding-bottom:8px;
+	font-family: arial;
+}	
+h3 { font-size:18px; line-height:1em; margin:0px 0px 10px 0px; padding-bottom:8px}	
+h4 { font-size:16px; line-height:1em; margin:0px 0px 10px 0px; padding-bottom:8px}
+h5, h6 { font-size:14px; line-height:1em; margin:0px 0px 10px 0px; padding-bottom:8px}			
+p {
+	margin:0px 0px 8px;
+	font-family: arial;
+}	
+a {	color:#999; text-decoration:none; border:none; outline:none }
+a:hover {color:#000}
+a:hover img {border:1px solid #bbb}
+em, i {
+	font-style:italic;
+	font-family: arial;
+}
+code, pre {font-family:"Courier New", Courier, monospace; color:#000; font-size:11px;padding:2px 4px}
+pre {background:#fff; border:1px solid #e6e6e6; padding:20px; line-height:1.4em}
+.wrapper{ width:940px; margin:0 auto; position:relative; text-align:left}
+.featured, .primary, .footer{overflow:hidden; position:relative}
+.header {
+	background:#000 url(../images/cats_grad.jpg) bottom repeat-x;
+	position:relative;
+	overflow:hidden;
+	padding:24px 0px;
+	background-color: #40575F;
+	background-image: url(images/titles_grad.jpg);
+}
+.featured {padding:40px 0px 15px; background:url(../images/top_grad.jpg) top repeat-x}
+.featured h1 {background:none; color:#fff}
+.primary {padding:40px 0px; background:url(../images/top_grad.jpg) top repeat-x;}
+.home {padding-top:20px; background:url(../images/feat_shadow.png) top no-repeat}
+.home_slider {padding-bottom:0px; }
+.main_content {float:left; margin:0px 19px 0px 0px; width:695px; padding-right:20px; border-right:1px solid #e9e9e9} 
+.full_width{ width:940px; margin:0 auto; position:relative; text-align:left; border-right:none}
+.box940, .box695, .box450, .box205, .box327, .box328 {float:left;margin:15px 40px 15px 0px;position:relative; overflow:hidden}
+.box940 {width:940px}
+.box695 {width:695px}
+.box450 {width:450px}
+.box205 {width:205px}
+.box327 {width:327px}
+.box328 {width:328px}
+.right_side {margin-right:0px}
+.sidebar{float:left; width:205px; margin:15px 0px; color:#999; overflow:hidden; position:relative}
+.main_content_right {float:left;margin:0px 0px 25px 19px; width:695px; padding-left:20px; border-left:1px solid #e9e9e9}
+
+/*-------------------- 2. HEADER SECTION --------------------*/	
+.logo {position:absolute; top:-76px; z-index:1}
+a img.logo:hover {border:none}
+
+/*-------------------- 3. NAVIGATION --------------------*/	
+.page_nav{float:right; margin:0;padding:0;list-style:none}
+.page_nav li{float:left;position:relative}
+.page_nav a{display:block; margin:0px 15px 0px 0px; padding:4px 0px 3px; color:#bbb; text-decoration:none}
+.page_nav a.last {margin-right:0px}
+.page_nav a:hover, a.current, .page_nav a.current:hover {color:#fff;border-bottom:1px solid #ffcc00}
+.page_nav a:hover {border-bottom:1px solid #666; color:#ddd}
+
+/*-------------------- 4. FEATURED AREA AND SLIDER --------------------*/
+#fader{margin:0px; padding:0px; list-style:none;width:940px; height:380px; overflow:hidden; background:#fff url(../images/lightbox-ico-loading.gif) no-repeat 50% 50%;}
+#fader2{margin:0px; padding:0px; list-style:none;width:695px; height:350px; overflow:hidden}
+#fader li, #fader2 li{margin:0px; padding:0px}
+.fader2_shadow {height:18px;background:url(../images/fader2_shadow.png) top no-repeat}
+#slide_desc {position:absolute; height:90px; width:940px; top:290px;color:#000; background:none;z-index:50; overflow:hidden}
+.titles {
+	position:absolute;
+	width:675px;
+	height:30px;
+	padding:30px;
+	left:0px;
+	overflow:hidden;
+	font-family: arial;
+
+	} 
+.titles h3, .proj_cat h3 {background:none; margin-bottom:0px; line-height:0.5em; font-size:18px;}
+.titles h3 {font-family: arial; color:#FFFFFF; text-shadow:2px 1px 0px #000000; font-size:50px}
+.proj_cat {position:absolute;width:145px;height:30px; padding:30px;right:0px; background:#000 url(../images/cats_grad.jpg) repeat-x; color:#ccc;}
+.proj_cat h3 {
+	color:#FF6;
+	font-family: arial;
+}
+.for_slider {overflow:hidden; border-top:1px solid #e6e6e6;}
+.desc {display:none}
+.breadcrumbs {position:absolute; top:-35px; right:0px; font-size:10px; color:#999}
+.breadcrumbs a {text-decoration:none; color:#999}
+.breadcrumbs a:hover {text-decoration:underline; color:#666}
+
+/*-------------------- 5. PRIMARY CONTENT --------------*/
+.feat_projects, .testimonials {position:relative; overflow:hidden;}
+.feat_projects {background:url(../images/hr.gif) bottom repeat-x}
+.feat_projects ul, .testimonials ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	height:96px;
+	text-align: right;
+}
+.feat_projects ul li {float:left; height:84px; width:84px; margin:0px 10px 7px 0px; position:relative; overflow:hidden;}
+.feat_projects ul li a img {padding:1px; background:#fff; border:1px solid #ddd;} 
+.feat_projects ul li a:hover img {border:1px solid #bbb}
+.testimonials ul li {
+	margin-bottom:7px;
+	font-family: arial;
+}
+.testimonials ul li img {float:right; margin:0px 0px 10px 10px;padding:1px; background:#fff; border:1px solid #ddd}
+
+/*-------------------- 6. PORTFOLIO PAGE AND GALLERY --------------------*/
+#port_filter {margin:20px 0px; padding:0px; list-style:none; position:relative; overflow:hidden; font-size:11px}
+#port_filter li {float:left}
+#port_filter li a {display:block; padding:2px 13px; color:#333; text-decoration:none}
+#port_filter li a:hover, #port_filter li.active a {color:#fff; background-color:#000}
+
+.portfolio_holder {margin:0px; padding:0px; position:relative; overflow:hidden;}
+.portfolio_holder li {float:left; width:205px; margin:10px 40px 20px 0px;  position:relative; overflow:hidden; line-height:0px }
+.portfolio_holder li.last {margin-right:0px}
+.portfolio_holder li a img {padding:1px; background:#fff; border:1px solid #ddd}
+.portfolio_holder li a:hover img {border:1px solid #bbb}
+.captions {padding:8px 10px; margin-top:6px; text-align:center; font-size:12px; color:#666; border:1px solid #e6e6e6; background:#fff url(../images/caption.jpg) top repeat-x; line-height:1.2em}
+.captions a {color:#666; text-decoration:none}
+.captions a:hover {color:#000; text-decoration:underline}
+.more_projects li {border-bottom:1px solid #e6e6e6; margin-bottom:8px; padding-bottom:4px; font-size:11px; line-height:1.6em}
+
+ul.pagination { list-style:none; padding:0px; margin:10px 0px 0px; position:relative; overflow:hidden }	
+.pagination li { float:left; margin-right:5px;}		
+.pagination li a {padding:1px 8px; font-size:11px; text-decoration:none; color:#666; background-color:#ddd;border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2p; display:block}	
+.pagination li a:hover {color:#fff; background-color:#555}	
+.pagination li.currentPage { padding:1px 8px; font-size:11px; background-color:#555;color:#fff; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px}
+
+/*-------------------- 7. FORM ELEMENTS --------------------*/
+label {font-size:14px; color:#666; margin-left:10px}
+input {width:340px}
+textarea {width:430px; height:180px}
+input, textarea {padding:10px; margin:0px; font-size:14px; color:#333; border:none; outline:none; border:1px solid #ddd; background-color:#f4f4f4; border-radius:2px;-moz-border-radius:2px;	-webkit-border-radius:2px;	-khtml-border-radius:2px;}
+input:hover, textarea:hover, input:focus, textarea:focus { background-color:#fff}
+.submit input {width:auto;padding:8px 10px; font-size:14px; text-decoration:none; color:#666;border:none; background-color:#ddd;border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; cursor:pointer}
+.submit input:hover{color:#fff; background-color:#555; border:none}
+#subscribe_form .subs_submit input {width:auto;padding:4px 8px; font-size:11px; text-decoration:none; color:#666;border:none; background-color:#ddd;border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; cursor:pointer}
+#subscribe_form input {padding:6px; font-size:12px; color:#999; margin:0px; width:191px; border:none; outline:none; border:1px solid #E1E3E5; background-color:#f4f4f4; border-radius:2px;-moz-border-radius:2px; -webkit-border-radius:2px;	-khtml-border-radius:2px;}
+#subscribe_form input:hover, #subscribe_form input:focus {background:#fff; color:#333}
+#subscribe_form .subs_submit input:hover {color:#fff; background-color:#555; border:none}
+.error {border:1px solid #ffcc33}
+#mail_success, #mail_fail {display:none}
+
+/*-------------------- 8. SIDEBAR --------------*/
+.sidebar h2 {margin-bottom:0px; color:#666}
+.sidebar h2.text_widget {margin-bottom:6px}
+.sidebar ul.list_widget a {color:#999; text-decoration:none; display:block; padding:4px 10px 4px 15px; border-bottom:1px solid #e6e6e6}
+.sidebar ul.list_widget, .sidebar ul.more_projects {margin:0px; padding:0px}
+.sidebar ul.list_widget a:hover, .list a:hover {color:#333; background-color:#f0f0f0; text-decoration:none;}
+.sidebar ul.list_widget a.active_page {border-left:1px solid #ffcc00; color:#333}
+
+/*-------------------- 9. FOOTER SECTION --------------------*/
+.footer {background:#000; color:#fff; padding:20px 0px}
+.footer a {color:#ccc; text-decoration:none}
+.footer a:hover {color:#fff; text-decoration:underline}
+.footer_nav{ width:500px; float:left; font-size:11px; color:#aaa}	
+.footer_nav ul { font-size:11px; margin:0px; padding:0px; list-style:none}	
+.footer_nav ul li { float:left; margin:0px 5px;line-height:1em}	
+.footer_nav ul li.first {margin-left:0px}
+.footer_nav ul li.last {margin-right:0px}
+.footer_nav ul li a { color:#999; text-decoration:none;display:block ;padding:0px 0px 4px; margin:0px}
+.footer_nav ul li a:hover { color:#ddd; text-decoration:none; border-bottom:1px solid #666}		
+.footer_nav ul li a.current { color:#fff; text-decoration:none; border-bottom:1px solid #ffcc00}
+.notes {float:right; font-size:11px; color:#aaa; text-align:right }
+.social {margin:0px; padding:0px; list-style:none; display:block; position:relative; overflow:hidden; float:right}
+.social li {float:left; margin-right:4px}
+.social li a:hover img {border:none}	
+
+/*-------------------- 10. MISCELLANEOUS CLASSES --------------------*/		
+br.clearf { clear:both; height:0; margin:0px; padding:0px; font-size:0px; line-height:0px}
+.list, .linklist, .olist {margin:0px; padding:0px; list-style:none}
+.list li {background:url(../images/bullet_h.png) left 9px no-repeat; padding:0px 0px 0px 10px; margin-left:2px}
+.linklist a {color:#666; text-decoration:none; display:block; padding:4px 10px 4px 15px; border-bottom:1px solid #e6e6e6}
+.linklist a:hover{color:#333; background-color:#f0f0f0; text-decoration:none;}
+.olist { list-style:decimal}
+.olist li {margin:0px 0px 0px 22px;}	
+a.more {padding:4px 8px; font-size:11px; text-decoration:none; color:#666; background-color:#ddd;border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px}
+a.more:hover {color:#fff; background-color:#555}
+.borderify {padding:1px; background:#fff; border:1px solid #ddd;}
+.imgleft {float:left; margin:4px 15px 3px 0px}
+.imgright {float:right; margin:4px 0px 10px 15px}
+.margin20 {margin-bottom:20px}
+.no_hr {background:none; margin-bottom:0px; padding-bottom:2px}

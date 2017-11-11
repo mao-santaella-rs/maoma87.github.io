@@ -1,0 +1,102 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #C82926;
+}
+.titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #8DC3E6;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #8DC3E6;
+	text-align: left;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #8DC3E6;
+	height: 18px;
+}
+.alerta {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FC3;
+}
+.enlace {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+.enlace A {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FC3;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+.enlace A:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+.fondo_cuadro {
+	background-image: url(imagenes/det_referidos-02.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+.titulo_tabla {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #C82926;
+	background-color: #F4F4F4;
+	text-align: center;
+	height: 22px;
+}
+.numero_tabla {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #C82926;
+	text-align: center;
+	line-height: 22px;
+	height: 22px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #E2E2E2;
+}
+.texto_tabla {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	color: #333;
+	height: 22px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #E2E2E2;
+}
+.jean {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #C82926;
+	text-align: center;
+	height: 50px;
+}
+.mao{
+	border-collapse: collapse;
+	
+
+}

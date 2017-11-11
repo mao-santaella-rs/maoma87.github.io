@@ -1,0 +1,70 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #417c8a;
+}.texto_blanco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #EFDECB;
+	text-align: justify;
+}
+.fondo_mar {
+	background-image: url(../img/fondo.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.fondo_2 {
+	background-image: url(fondo2.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.fondo3 {
+	background-image: url(imagenes/fondo3.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #F6EE7F;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #F2CB42;
+	text-align: left;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #F2CB42;
+	height: 18px;
+}
+.alerta {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFF99;
+}
+.enlace {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #DDBA93;
+	text-align: center;
+	text-decoration: none;
+}
+.enlace A {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #8BCAF3;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+.enlace A:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
