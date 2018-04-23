@@ -1,0 +1,333 @@
+{
+    "web":[
+        {
+            "name": "stirpe.co",
+            "id": "web-1",
+            "thumb_src": "img/web/stirpe-web_thumb.jpg",
+            "img_src": "img/web/stirpe-web.jpg",
+            "description": "online fashion store",
+            "link": "https://stirpe.co/"
+        },
+        {
+            "name": "derek.co",
+            "id": "web-2",
+            "thumb_src": "img/web/derek-web_thumb.jpg",
+            "img_src": "img/web/derek-web.jpg",
+            "description": "online fashion store",
+            "link": "https://derek.co/"
+        },
+        {
+            "name": "citolab",
+            "id": "web-3",
+            "thumb_src": "img/web/citolab-web_thumb.jpg",
+            "img_src": "img/web/citolab.jpg",
+            "description": "cytology laboratory",
+            "link": "http://www.citolab.com.co/"
+        },
+        {
+            "name": "goretti school",
+            "id": "web-4",
+            "thumb_src": "img/web/colegio-web_thumb.jpg",
+            "img_src": "img/web/colegio.jpg",
+            "description": "middle / high school",
+            "link": "http://gorettibucaramanga.edu.co/site/"
+        },
+        {
+            "name": "Diego Castro",
+            "id": "web-5",
+            "thumb_src": "img/web/diegocastro-web_thumb.jpg",
+            "img_src": "img/web/diegocastro.jpg",
+            "description": "Architect",
+            "link": "http://entornosdc.co/"
+        },
+        {
+            "name": "Distritech",
+            "id": "web-6",
+            "thumb_src": "img/web/distritech-web_thumb.jpg",
+            "img_src": "img/web/distritech.jpg",
+            "description": "Telecomunication company",
+            "link": "portafolio/distritech"
+        },
+        {
+            "name": "Estudienaustralia",
+            "id": "web-7",
+            "thumb_src": "img/web/estudienaustralia-web_thumb.jpg",
+            "img_src": "img/web/estudienaustralia.jpg",
+            "description": "Education agency abroad",
+            "link": "http://australialatino.com/"
+        },
+        {
+            "name": "Llantas y Rines",
+            "id": "web-8",
+            "thumb_src": "img/web/llantas-web_thumb.jpg",
+            "img_src": "img/web/llantas.jpg",
+            "description": "Tires and rims clinic",
+            "link": "http://www.llantasalineacionybalanceobucaramanga.com/"
+        },
+        {
+            "name": "Loviu",
+            "id": "web-9",
+            "thumb_src": "img/web/loviu-web_thumb.jpg",
+            "img_src": "img/web/loviu.jpg",
+            "description": "Fruit Arrangements",
+            "link": "portafolio/navegaconnosotros"
+        },
+        {
+            "name": "Tu Parche",
+            "id": "web-10",
+            "thumb_src": "img/web/parche-web_thumb.jpg",
+            "img_src": "img/web/parche.jpg",
+            "description": "online campaign",
+            "link": "portafolio/parche"
+        },
+        {
+            "name": "Navega con Nosotros",
+            "id": "web-11",
+            "thumb_src": "img/web/navega-web_thumb.jpg",
+            "img_src": "img/web/navega.jpg",
+            "description": "Hotel services catalog",
+            "link": "img/web/"
+        },
+        {
+            "name": "ViveLoft",
+            "id": "web-12",
+            "thumb_src": "img/web/viveloft-web_thumb.jpg",
+            "img_src": "img/web/viveloft.jpg",
+            "description": "Magazine website",
+            "link": "portafolio/viveloft"
+        },
+        {
+            "name": "Perfect Body",
+            "id": "web-13",
+            "thumb_src": "img/web/perfect-web_thumb.jpg",
+            "img_src": "img/web/perfect.jpg",
+            "description": "spa promotion landing-page",
+            "link": "http://lipoesculturacolombia.com.co/"
+        }
+    ],
+
+    "branding":[
+        {
+            "name": "Ardiscon",
+            "id": "brand-1",
+            "thumb_src": "img/branding/ardiscon_thumb.jpg",
+            "img_src": "img/branding/ardiscon.jpg",
+            "description": "Engineering"
+        },
+        {
+            "name": "Distritech",
+            "id": "brand-2",
+            "thumb_src": "img/branding/distritech_thumb.jpg",
+            "img_src": "img/branding/distritech.jpg",
+            "description": "Comunications"
+        },
+        {
+            "name": "JR Engineering",
+            "id": "brand-3",
+            "thumb_src": "img/branding/jr_thumb.jpg",
+            "img_src": "img/branding/jr.jpg",
+            "description": "Civil Engineering"
+        },
+        {
+            "name": "Oscar Navarro",
+            "id": "brand-4",
+            "thumb_src": "img/branding/oscarnavarro_thumb.jpg",
+            "img_src": "img/branding/oscarnavarro.jpg",
+            "description": "Shoes"
+        },
+        {
+            "name": "Ricuras Paisas",
+            "id": "brand-5",
+            "thumb_src": "img/branding/ricuras_thumb.jpg",
+            "img_src": "img/branding/ricuras.jpg",
+            "description": "Restaurant"
+        },
+        {
+            "name": "Silver & gold",
+            "id": "brand-6",
+            "thumb_src": "img/branding/silvergold_thumb.jpg",
+            "img_src": "img/branding/silvergold.jpg",
+            "description": "Jewelry"
+        },
+        {
+            "name": "UDI Virtual",
+            "id": "brand-7",
+            "thumb_src": "img/branding/udivirtual_thumb.jpg",
+            "img_src": "img/branding/udivirtual.jpg",
+            "description": "Virtual Education"
+        },
+        {
+            "name": "Servicion Urbanos Integrales",
+            "id": "brand-8",
+            "thumb_src": "img/branding/sui_thumb.jpg",
+            "img_src": "img/branding/sui.jpg",
+            "description": "legal advice"
+        },
+        {
+            "name": "Wasabi",
+            "id": "brand-9",
+            "thumb_src": "img/branding/wasabi_thumb.jpg",
+            "img_src": "img/branding/wasabi.jpg",
+            "description": "Sushi House"
+        },
+        {
+            "name": "Zuaty",
+            "id": "brand-10",
+            "thumb_src": "img/branding/zuaty_thumb.jpg",
+            "img_src": "img/branding/zuaty.jpg",
+            "description": "Busisness center"
+        },
+        {
+            "name": "Serankua",
+            "id": "brand-11",
+            "thumb_src": "img/branding/serankwa_thumb.jpg",
+            "img_src": "img/branding/serankwa.jpg",
+            "description": "Beekeepers society"
+        },
+        {
+            "name": "Loly Pet",
+            "id": "brand-12",
+            "thumb_src": "img/branding/lolypet_thumb.jpg",
+            "img_src": "img/branding/lolypet.jpg",
+            "description": "Pet Fashion"
+        },
+        {
+            "name": "Bianko Wok",
+            "id": "brand-13",
+            "thumb_src": "img/branding/bianko_thumb.jpg",
+            "img_src": "img/branding/bianko.jpg",
+            "description": "Asian Wok"
+        },
+        {
+            "name": "San Agustin",
+            "id": "brand-14",
+            "thumb_src": "img/branding/sanagustin_thumb.jpg",
+            "img_src": "img/branding/sanagustin.jpg",
+            "description": "Agricultural Society"
+        },
+        {
+            "name": "San Agustin",
+            "id": "brand-15",
+            "thumb_src": "img/branding/sanagustin-2_thumb.jpg",
+            "img_src": "img/branding/sanagustin-2.jpg",
+            "description": "Agricultural Society | Rebranding"
+        },
+        {
+            "name": "Jean Paul",
+            "id": "brand-16",
+            "thumb_src": "img/branding/jean-paul_thumb.jpg",
+            "img_src": "img/branding/jean-paul.jpg",
+            "description": "Architect"
+        },
+        {
+            "name": "Lire 2",
+            "id": "brand-17",
+            "thumb_src": "img/branding/lire2_thumb.jpg",
+            "img_src": "img/branding/lire2.jpg",
+            "description": "weather measurement software"
+        }
+
+    ],
+
+    "print":[
+        {
+            "name": "ViveLoft #8 Magazine",
+            "id": "print-1",
+            "thumb_src": "img/editorial/viveloft-8_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/viveloft/docs/viveloft_8_2"
+        },
+        {
+            "name": "ViveLoft #7 Magazine",
+            "id": "print-2",
+            "thumb_src": "img/editorial/viveloft-7_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/viveloft/docs/revistaviveloft7"
+        },
+        {
+            "name": "ViveLoft #6 Magazine",
+            "id": "print-3",
+            "thumb_src": "img/editorial/viveloft-6_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/viveloft/docs/www.revistaviveloft.com"
+        },
+        {
+            "name": "ViveLoft #5 Magazine",
+            "id": "print-4",
+            "thumb_src": "img/editorial/viveloft-5_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/viveloft/docs/viveloft5"
+        },
+        {
+            "name": "ViveLoft #4 Magazine",
+            "id": "print-5",
+            "thumb_src": "img/editorial/viveloft-4_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/viveloft/docs/viveloft4"
+        },
+        {
+            "name": "FacilVivir #68 Magazine",
+            "id": "print-6",
+            "thumb_src": "img/editorial/facilvivir-68_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/mao8a87/docs/fv68_b_-_entrega_para_aprobacion_fi"
+        },
+        {
+            "name": "FacilVivir #67 Magazine",
+            "id": "print-7",
+            "thumb_src": "img/editorial/facilvivir-67_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/mao8a87/docs/fv67-_e8-_27-11-14"
+        },
+        {
+            "name": "FacilVivir #66 Magazine",
+            "id": "print-8",
+            "thumb_src": "img/editorial/facilvivir-66_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/mao8a87/docs/revista_facil_vivir__66_-_10"
+        },
+        {
+            "name": "FacilVivir #65 Magazine",
+            "id": "print-9",
+            "thumb_src": "img/editorial/facilvivir-65_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/mao8a87/docs/revista_facil_vivir__65_e11_correcc"
+        },
+        {
+            "name": "FacilVivir #64 Magazine",
+            "id": "print-10",
+            "thumb_src": "img/editorial/facilvivir-64_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/mao8a87/docs/entrega_fv64_20-11-2013_-_2"
+        },
+        {
+            "name": "FacilVivir #63 Magazine",
+            "id": "print-11",
+            "thumb_src": "img/editorial/facilvivir-63_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/mao8a87/docs/entrega_20-08-2013_f"
+        },
+        {
+            "name": "FacilVivir #62 Magazine",
+            "id": "print-12",
+            "thumb_src": "img/editorial/facilvivir-62_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/mao8a87/docs/revista_facil_vivir_62"
+        },
+        {
+            "name": "Diamante Magazine #1",
+            "id": "print-13",
+            "thumb_src": "img/editorial/diamante_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/mao8a87/docs/revista_facil_vivir_62"
+        },
+        {
+            "name": "graduation project book",
+            "id": "print-14",
+            "thumb_src": "img/editorial/diaflo_thumb.jpg",
+            "description": "Design and Layout",
+            "link": "https://issuu.com/mao8a87/docs/diana_final_nico_mao"
+        }
+    ]
+    
+}
